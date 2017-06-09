@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
     // 응답 정보 write+end
     res.end('my name is //InHojoon//');
 	
-    res.end('It is So hard.');
+    res.end('It is So hard1.');
 });
 
 server.listen(port, () => {
