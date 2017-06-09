@@ -10,12 +10,10 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     // 응답 정보 write
-    res.write('Hello\n ');
+    res.write('Hello\n my name is //InHojoon// ');
     // 응답 정보 write+end
 	
-    res.write('It is So hard.');
-	res.write('Why!!.');
-    res.end('my name is //InHojoon//');
+    res.end('It is So hard to make Home page ');
 	
 });
 
