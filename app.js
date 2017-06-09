@@ -10,12 +10,13 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     // 응답 정보 write
-    res.write('Hello ');
+    res.write('Hello\n ');
     // 응답 정보 write+end
+	
+    res.write('It is So hard.');
+	res.write('Why!!.');
     res.end('my name is //InHojoon//');
 	
-    res.end('It is So hard.');
-	res.end('Why!!.');
 });
 
 server.listen(port, () => {
